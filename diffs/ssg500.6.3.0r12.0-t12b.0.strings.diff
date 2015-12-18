@@ -1,0 +1,132 @@
+
+--- A	2015-12-17 22:35:07.465463880 -0600
++++ B	2015-12-17 22:35:16.901509912 -0600
+@@ -69689,7 +69689,7 @@
+ 5AC635D8AA3A93E7B3EBBD55769886BC651D06B0CC53B0F63BCE3C3E27D2604B
+ 6B17D1F2E12C4247F8BCE6E563A440F277037D812DEB33A0F4A13945D898C296
+ FFFFFFFF00000000FFFFFFFFFFFFFFFFBCE6FAADA7179E84F3B9CAC2FC632551
+-9585320EEAF81044F20D55030A035B11BECE81C785E6C933E4A8A131F6578107
++2c55e5e45edf713dc43475effe8813a60326a64d9ba3d2e39cb639b0f3b0ad10
+ interrupt disabled and no entropy 
+ IKE: sort list contain bad group ike id user
+ IKE: attempt to delete group ike id user <%d>, not found in sort list.
+@@ -101512,9 +101512,9 @@
+ sc_dbin_unsz_groups: Invalid index %u for %s
+ sc_dbin_unsz_license: no license information!
+ sc_dbin_unsz_hash: sc_hash_construct() failed
+-/builds/build_master/PVG/base/z0/r12-saipan/idp30/kernel/logs/include/../../../../include/service_type.h
++/builds/build_master/PVG/base/z0/r12b-saipan/idp30/kernel/logs/include/../../../../include/service_type.h
+ sc_dbin_unsz_hash: sc_hash_insert(%s) failed
+-/builds/build_master/PVG/base/z0/r12-saipan/idp30/kernel/queue/modules/ids/include/sc_ids_offsets.h
++/builds/build_master/PVG/base/z0/r12b-saipan/idp30/kernel/queue/modules/ids/include/sc_ids_offsets.h
+ radius-attr-calling-station-id
+ radius-attr-framed-appletalk-zone
+ radius-attr-acct-multi-session-id
+@@ -101710,7 +101710,7 @@
+ sc_process_ioctl: unknown ioctl command %d
+ cpu %u: %-10u(%-10u) = %s:%u::%s 
+ %s: Couldn't find module '%s' for subs '%s'
+-/builds/build_master/PVG/base/z0/r12-saipan/idp30/kernel/queue/include/sc_qservice.h
++/builds/build_master/PVG/base/z0/r12b-saipan/idp30/kernel/queue/include/sc_qservice.h
+ Assertion svcnmhash != 0 failed!
+ %s: svc '%s' doesn't support kconsts
+ kconst_get_list: vars is NULL
+@@ -101774,12 +101774,12 @@
+ sc_kq_push_module[%s]: Too many modules in q!
+ sc_kq_push_module[%s]: '%s' already exists in queue
+ sc_kq_run[%s:'%s']: Processing %sbound packet
+-/builds/build_master/PVG/base/z0/r12-saipan/idp30/kernel/net/include/sc_kpacket.h
++/builds/build_master/PVG/base/z0/r12b-saipan/idp30/kernel/net/include/sc_kpacket.h
+ Assertion (void *) qmod->qfunc == (void *) &sc_flow_manager failed!
+ sc_kq_run: Busy packet causes recursion
+ Assertion (void *) qmod->qfunc == (void *) &sc_reass failed!
+ Assertion (void *) qmod->qfunc == (void *) &sc_ids failed!
+-/builds/build_master/PVG/base/z0/r12-saipan/idp30/kernel/queue/modules/flow/include/sc_flow.h
++/builds/build_master/PVG/base/z0/r12b-saipan/idp30/kernel/queue/modules/flow/include/sc_flow.h
+ Assertion session != 0 failed!
+ sc_kq_run: dead session %i:%u -> %i:%u [%d]
+ ../../../include/sc_kqmsg_inl.h
+@@ -101854,7 +101854,7 @@
+ sc_reass_get_tcp_state: subscriber %s has no `reass' module
+ Assertion sc_get_peer_flow(fp) != 0 failed!
+ sc_reass_get_tcp_state[%s]: flow not being reassembled: %i:%u -> %i:%u [%d]
+-/builds/build_master/PVG/base/z0/r12-saipan/idp30/kernel/sc/src_ns/sc_ns_sub.h
++/builds/build_master/PVG/base/z0/r12b-saipan/idp30/kernel/sc/src_ns/sc_ns_sub.h
+ Assertion vsys != NULL failed!
+ SC_IMPLEMENT_QMODULE_KCONST(%s): NULL qmod->data
+ sc_reass_is_rst: ESTABLISHED: RST out of window (need %u<=%u<%u)
+@@ -102080,7 +102080,7 @@
+ Assertion ctx->qd->chainhash != NULL failed!
+ Assertion ctx->flow->qsp->scope == SC_SERVICE_SCOPE_TRANSACTION failed!
+ Delete trans. scope chain (%s) from list
+-/builds/build_master/PVG/base/z0/r12-saipan/idp30/kernel/queue/modules/ids/include/sc_ids_chain.h
++/builds/build_master/PVG/base/z0/r12b-saipan/idp30/kernel/queue/modules/ids/include/sc_ids_chain.h
+ sc_chainhash_delete_entry: Element: 0X%x deleted
+ Assertion rp->lock != 0 failed!
+ sc_ids_dev_read: sc_klist_pop_front() returns null
+@@ -102140,7 +102140,7 @@
+ Assertion patlen <= 2 failed!
+ Assertion aip->attack->offset_type==SC_ATTACK_OFFSET_LINE failed!
+ Assertion aip->u.ri != 0 failed!
+-/builds/build_master/PVG/base/z0/r12-saipan/idp30/kernel/queue/modules/reass/include/sc_tcp_stream.h
++/builds/build_master/PVG/base/z0/r12b-saipan/idp30/kernel/queue/modules/reass/include/sc_tcp_stream.h
+ Assertion ctx->fd->tdp->strstrm != 0 failed!
+ Assertion ap->offset_type == SC_ATTACK_OFFSET_STREAM failed!
+ Assertion ctx->fd->tdp->str256strm != 0 failed!
+@@ -102229,7 +102229,7 @@
+ sc_chargen_fini[%s]: %i:%u -> %i:%u [%d]
+ sc_chargen_verify_udp: ******************* %d 
+ Assertion stream != 0 failed!
+-/builds/build_master/PVG/base/z0/r12-saipan/idp30/kernel/queue/modules/ids/src/sc_ids_run.h
++/builds/build_master/PVG/base/z0/r12b-saipan/idp30/kernel/queue/modules/ids/src/sc_ids_run.h
+ Assertion ctx->fd != NULL failed!
+ sc_discard_init[%s]: %i:%u -> %i:%u [%d]
+ sc_discard_fini[%s]: %i:%u -> %i:%u [%d]
+@@ -102241,7 +102241,7 @@
+ sc_ids_add_context(length: %u, type: %s) failed
+ sc_dhcp_check_opt: tag %u, len %u
+ sc_dhcp_parse_options: sc_dhcp_check_opt() failed
+-/builds/build_master/PVG/base/z0/r12-saipan/idp30/kernel/net/include/sc_udp_reader.h
++/builds/build_master/PVG/base/z0/r12b-saipan/idp30/kernel/net/include/sc_udp_reader.h
+ sc_dhcp_verify_options: overload FNAME
+ sc_dhcp_verify_options: overload SNAME
+ sc_dhcp_verify_options: overload BOTH
+@@ -102625,7 +102625,7 @@
+ SC_MIME_ADD_CHUNK_CONTEXT: unknown service %u
+ SC_MIME_ADD_CONTEXT: unknown service %u
+ Assertion data->data_used + 4 <= data->data_alloc failed!
+-/builds/build_master/PVG/base/z0/r12-saipan/idp30/kernel/queue/services/http/src/sc_base64.h
++/builds/build_master/PVG/base/z0/r12b-saipan/idp30/kernel/queue/services/http/src/sc_base64.h
+ SC_MIME_IDS_LOG: unknown svc %u
+ sc_mime_mark_data: add context data(%u) '%s'
+ Assertion len_left < 4 failed!
+@@ -103618,7 +103618,7 @@
+ sc_subs_rpc_insert: sc_kthash_construct() failed
+ Assertion etype == SC_ETHERTYPE_ARP || etype == SC_ETHERTYPE_IP || etype == SC_ETHERTYPE_STP failed!
+ sc_kpacket_alloc: sc_szalloc(%d) failed
+-/builds/build_master/PVG/base/z0/r12-saipan/idp30/kernel/net/src/sc_kpacket_i.h
++/builds/build_master/PVG/base/z0/r12b-saipan/idp30/kernel/net/src/sc_kpacket_i.h
+ sc_kpacket_validate_ip: Invalid version[%d], hlen[%d/len=%d], ttl[%d] or checksum
+ ns_sc_localpak_2_kpp: sc_kpacket_validate_ip() failed
+ sc_kpacket_attach_ip: sc_kpacket_alloc() failed
+@@ -104152,7 +104152,7 @@
+ Assertion prefix1->len == nBit failed!
+ Assertion prefix2->len == nBit failed!
+ sc_policy_range2vector: sc_vector_add() failed
+-/builds/build_master/PVG/base/z0/r12-saipan/idp30/kernel/policy/include/sc_prefix.h
++/builds/build_master/PVG/base/z0/r12b-saipan/idp30/kernel/policy/include/sc_prefix.h
+ sc_prefix_rpc_program: Warning! program 0x%x > 28 bits!
+ Rule %d is shadowed by rule %d
+ sc_verify_addr2prefix: addr %x/%u
+@@ -105479,8 +105479,9 @@
+ max-sa
+ max-l2tp-tunnel
+ hash-seg
++r12b.0
+ build_master
+-Wed Aug 8 05:12:10 PDT 2012
++Mon Dec 14 02:27:53 PST 2015
+ Remote login not allowed now, you may try sometime later
+ logically
+ physically
+
